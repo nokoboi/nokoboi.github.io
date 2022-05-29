@@ -1,194 +1,109 @@
-header{
-	background-color: black;
-	display: flex;
-	color: white;
-	align-items: center;
-	justify-content: space-around;
-	border-bottom: gold solid 0.5rem;
-	flex-wrap: wrap;
-	margin-bottom: 1.5rem;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	z-index: 1;
-	width: 100%;
-	background-image: url('../img/fondonegro2.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: unset;
-}
-
-nav a{
-	text-decoration: none;
-	color: white;
-	margin: 1.5rem;
-	font-family: 'Anton', sans-serif;
-	font-size: 1.5rem;
-}
-
 body{
-	margin: 0px;
-	background-image: url('../img/fondo.webp');
+    margin:0px;
+    background-color: rgb(214, 211, 211);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    box-sizing: border-box;
+}
+
+main{
+    width:1400px;
+    margin:auto;
+    border:3px solid black;
+    padding:1em;
+    margin-top:2rem;
+    background-color: white;
+    box-shadow: 0px 10px 13px -7px #000000, 2px 4px 17px 15px rgba(0,0,0,0.48);
+    margin-top: 10rem;
+}
+
+.foto{
+    margin: auto;
+    text-align: center;
+}
+
+.foto img{
+    width:50%;
+}
+    
+
+h3{
+    font-size: 1.3em;
+}   
+
+h4{
+    font-size: 1.2em;
+}
+
+h5{
+    font-size: 1.1em;
+}
+
+h2{
+    font-size: 1.4em;
+}
+
+h2,h1{
+    text-align: center;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    box-sizing: border-box;
+    border-bottom:0.5rem solid grey
 }
 
 header img{
-	width: 200px;
-	padding-bottom: 0.5rem;
+    width:100px;
+    margin:0.5em;
 }
 
-form{
-	font-family: 'Anton', sans-serif;
+a{
+    color:white;
+    text-decoration: none;
+    margin-right: 1.5em;
+    font-size: 1.5em;
 }
 
-.usuario{
-	margin-right: 2.5rem;
-}
-.contraseña{
-	margin-left: 1rem;
+a:hover{
+   color:rgb(214, 211, 211);
 }
 
-button{
-	width: 17rem;
-	background-color: gold;
+footer{
+    margin-top:2rem;
+    height: 10vh;
+    background-color: black;
+    color:white;
+    text-align: center;
+    border-top: 0.5rem solid gray;
+}
+
+footer p{
+    padding-top:2rem;
+}
+
+@media (min-width: 576px) and (max-width: 1400px){
+	main{
+        width:90%;
+        box-sizing: border-box;
+        margin-top: 10rem;
+    }
 
 }
 
-#imagenes{
-	width: 100%;
-	margin: auto;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin-bottom: 1.5rem;
-	margin-top: 7rem;
-}
-
-#imagenes img{
-	width: 100%;
-	height: 20vh;
-	object-fit: cover;
-}
-
-.inicio{
-	margin: 0px;
-	width: 15%;
-	min-width: 300px;
-}
-
-.titulillo{
-	text-align: center;
-	font-family: 'Anton', sans-serif;
-	background-color: black;
-	color: white;
-	padding-top: 0px;
-}
-
-figure img{
-	margin-bottom: 0px;
-	padding: 0px;
-	display: block;
-}
-
-
-#tabla{
-	margin: auto;
-	border: 1px solid black;
-	border-collapse: collapse;
-	text-align: center;
-	width: 70%;
-	overflow-x: auto;
-	white-space: nowrap;
-	display: block;
-}
-
-#tabla img{
-	width: 100%;
-	height: 20vh;
-	object-fit: cover;
-	display: block;
-	min-width: 150px;
-}
-
-td{
-	border: solid 1px black;
-	width: 16%;
-	font-family: 'Roboto', sans-serif;
-	font-weight: bolder;
-	font-size: 1.2rem;
-	max-width: 300px;
-}
-
-th{
-	background-color: black;
-	color: white;
-	font-family: 'Anton', sans-serif;
-	font-weight: lighter;
-	padding: 0.5rem;
-	border: 1px solid white;
-	width: 16%;
-}
-
-.nombre{
-	font-family: 'Anton', sans-serif;
-	font-weight: lighter;
-	font-size: 1.2rem;
-}
-
-tbody>tr:nth-child(2n){
-	background-color: #a9a9a9;
-	background-image: url('../img/fondotabla.png');
-}
-
-#info{
-	width: 70%;
-	margin: auto;
-	font-size: 1.2rem;
-}
-
-#seccion2{
-	float: right;
-	border: 1px solid black;
-	padding: 0.5rem;
-	background-color: slategrey;
-	font-style: italic;
-}
-
-#yugi{
-	font-family: 'Anton', sans-serif;
-}
-
-#ultimo{
-	width: 70%;
-	margin: auto;
-	font-size: 1.2rem;
-}
-
-.legendarias{
-	float: right;
-	border: 1px solid black;
-	padding: 0.5rem;
-	background-color: slategrey;
-	font-style: italic;
-}
-
-.dioses{
-	float: right;
-	border: 1px solid black;
-	padding: 0.5rem;
-	background-color: darkgoldenrod;
-	font-style: italic;
-}
-
-details p{
-	font-family: 'Roboto', sans-serif;
-	font-weight: bolder;
-}
-
-summary,h3{
-		font-family: 'Anton', sans-serif;
-}
-
-#info{
-	font-family: 'Roboto', sans-serif;
-	font-weight: bolder;
+@media(max-width: 576px){
+    main{
+        width:95%;
+        box-sizing: border-box;
+        margin-top: 12rem;
+    }
+	
 }

@@ -1,368 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Yugi-oh</title>
-	<link rel="stylesheet" href="css/estilos.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header>
-		<img src="img/logo.png" alt="">
-		<nav>
-			<div id="menu">
-				<a href="#imagenes">Duelistas</a>
-				<a href="#info">Yugi</a>
-				<a href="#ultimo">Cartas</a>
-			</div>
-		</nav>
-	<div id="entrada">
-			<form action="">
-				<label for="usuario" class="usuario">Usuario</label>
-				<input type="e-mail" required>
-				<br>
-				<label for="contraseña">Contraseña</label>
-				<input type="password" class="contraseña" required>
-				<br>
-				<button type="submit">Entrar</button>
-			</form>
-		</div>		
-	</header>
-	<main>
-		<section id="imagenes">
-			<figure class="inicio">
-				<img src="img/yugimuto.jpg" alt="">
-				<figcaption class="titulillo">
-					Yugi Muto
-				</figcaption>
-				<p>Hola soy Maria jeje</p>
-			</figure>
-			<figure class="inicio">
-				<img src="img/yamiyugi.jpg" alt="">
-				<figcaption class="titulillo">
-					Yami Yugi
-				</figcaption>
-			</figure>
-			<figure class="inicio">
-				<img src="img/joey.jpg" alt="">
-				<figcaption class="titulillo">
-					Joey Wheeler
-				</figcaption>
-			</figure>
-			<figure class="inicio">
-				<img src="img/kaiba.jpg" alt="">
-				<figcaption class="titulillo">
-					Seto Kaiba
-				</figcaption>
-			</figure>
-			<figure class="inicio">
-				<img src="img/pegasus.jpg" alt="">
-				<figcaption class="titulillo">
-					Pegasus
-				</figcaption>
-			</figure>
-			<figure class="inicio">
-				<img src="img/atem.png" alt="">
-				<figcaption class="titulillo">
-					Faraón Atem
-				</figcaption>
-			</figure>
-			<figure class="inicio">
-				<img src="img/mako.jpg" alt="">
-				<figcaption class="titulillo">
-					Mako Tsunami
-				</figcaption>
-			</figure>
-			<figure class="inicio">
-				<img src="img/ishizu.jpg" alt="">
-				<figcaption class="titulillo">
-					Ishizu Ishtar
-				</figcaption>
-			</figure>
-			<figure class="inicio">
-				<img src="img/marik.png" alt="">
-				<figcaption class="titulillo">
-					Yami Marik
-				</figcaption>
-			</figure>
-			<figure class="inicio">
-				<img src="img/tea.jpg" alt="">
-				<figcaption class="titulillo">
-					Téa Gardner
-				</figcaption>
-			</figure>
-			<figure class="inicio">
-				<img src="img/rex.jpg" alt="">
-				<figcaption class="titulillo">
-					Rex Raptor
-				</figcaption>
-			</figure>
-			<figure class="inicio">
-				<img src="img/dartz.png" alt="">
-				<figcaption class="titulillo">
-					Dartz
-				</figcaption>
-			</figure>
-		</section>
-		<section>
-			<table id="tabla">
-			<thead>
-				<tr>
-					<th>Nombre</th>
-					<th>Aparición</th>
-					<th>Objeto milenario</th>
-					<th>Carta insignia</th>
-					<th>Alineación</th>
-					<th>Foto</th>				
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td class="nombre">Yugi Muto</td>
-					<td>Capítulo 1</td>
-					<td>Puzle Milenario</td>
-					<td>Mago oscuro</td>
-					<td>Bueno</td>
-					<td><img src="img/yugimuto.jpg"></td>
-				</tr>
-				<tr>
-					<td class="nombre">Yami Yugi</td>
-					<td>Capítulo 1</td>
-					<td>Puzle Milenario</td>
-					<td>Mago oscuro</td>
-					<td>Bueno</td>
-					<td><img src="img/yamiyugi.jpg"></td>
-				</tr>
-				<tr>
-					<td class="nombre">Joey Wheeler</td>
-					<td>Capítulo 1</td>
-					<td>No</td>
-					<td>Dragón negro de ojos rojos</td>
-					<td>Bueno</td>
-					<td><img src="img/joey.jpg"></td>
-				</tr>
-				<tr>
-					<td class="nombre">Seto Kaiba</td>
-					<td>Capítulo 1</td>
-					<td>No</td>
-					<td id="kaiba">Dragón blanco de ojos azules</td>
-					<td>Neutral</td>
-					<td><img src="img/kaiba.jpg"></td>
-				</tr>
-				<tr>
-					<td class="nombre">Pegasus</td>
-					<td>Capítulo 1</td>
-					<td>Ojo Milenario</td>
-					<td>Mundo toon</td>
-					<td>Malvado</td>
-					<td><img src="img/pegasus.jpg"></td>
-				</tr>
-				<tr>
-					<td class="nombre">Faraon Atem</td>
-					<td>Capítulo 52</td>
-					<td>Puzle Milenario</td>
-					<td>Mago oscuro</td>
-					<td>Bueno</td>
-					<td><img src="img/atem.png"></td>
-				</tr>
-				<tr>
-					<td class="nombre">Mako Tsunami</td>
-					<td>Capítulo 7</td>
-					<td>No</td>
-					<td>Ballena fortaleza</td>
-					<td>Neutral</td>
-					<td><img src="img/mako.jpg"></td>
-				</tr>
-				<tr>
-					<td class="nombre">Ishizu Ishtar</td>
-					<td>Capítulo 52</td>
-					<td>Collar milenario</td>
-					<td>Mudora</td>
-					<td>Bueno</td>
-					<td><img src="img/ishizu.jpg"></td>
-				</tr>
-				<tr>
-					<td class="nombre">Yami Marik</td>
-					<td>Capítulo 89</td>
-					<td>Cetro Milenario</td>
-					<td>Dragón Alado de Ra</td>
-					<td>Malvado</td>
-					<td><img src="img/marik.png"></td>
-				</tr>
-				<tr>
-					<td class="nombre">Téa Gardner</td>
-					<td>Capítulo 1</td>
-					<td>No</td>
-					<td>Chica Maga Oscura</td>
-					<td>Bueno</td>
-					<td><img src="img/tea.jpg"></td>
-				</tr>
-				<tr>
-					<td class="nombre">Rex Raptor</td>
-					<td>Capítulo 2</td>
-					<td>No</td>
-					<td>Dragón Tirano</td>
-					<td>Neutral</td>
-					<td><img src="img/rex.jpg"></td>
-				</tr>
-				<tr>
-					<td class="nombre">Dartz</td>
-					<td>Capítulo 145</td>
-					<td>No</td>
-					<td>Serpiente Divina Geh</td>
-					<td>Malvado</td>
-					<td><img src="img/dartz.png"></td>
-				</tr>
-				</tbody>
-			</table>
-		</section>
-		<section id="info">
-			<h2 id="yugi">Yami Yugi</h2>
-			<figure id="seccion2">
-				<img src="img/yugi fig.jpg" alt="">
-				<figcaption>
-					Yami Yugi
-				</figcaption>
-			</figure>
-			<p>
-				Yami Yugi, conocido como Yugi Oscuro (闇遊戯, Yami Yugi) en la versión original japonesa del manga y anime, es el espíritu del faraón Atem que fue sellado en el Rompecabezas del Milenio. 
-			</p>
-			<p>
-				Después de que Yugi Muto resolviera el Rompecabezas del Milenio, Yami Yugi reside en la mente de Yugi y toma posesión de este cuando Yugi y sus amigos están en peligro. Después de que Yugi se hiciera plenamente consciente de la existencia de Yami Yugi, Yugi es capaz de intercambiar voluntariamente con Yami Yugi el control de su conciencia.
-			</p>
-			<p>
-				En el manga, Yami Yugi comienza como un vigilante implacable. Surge como un justiciero cuando Yugi y sus amigos se encuentran en aprietos. A pesar de que sus actos son justos, los castigos impuestos en sus juegos suelen ser brutales. En el manga y el primer anime casi todos ellos se hacen ilusiones. En el primer episodio de la segunda serie anime, Yami Yugi consigue derrotar a Seto Kaiba Invocando a Exodia (también destruye a sus tres Dragones Blancos de Ojos Azules) y usa su poder para romper la malicia en su mente.
-				Es un poco reservado, ya que al comienzo no le revela su existencia a Yugi o a sus amigos. Después de que Yugi admite pensar que "otro Yugi" existe dentro de él, sus amigos toman conciencia de su existencia y lo aceptan como un amigo. En el manga es distinto, pues no es Yugi Muto quien se da cuenta primero de su existencia, sino Téa Gardner. 
-				El orgullo de Yami Yugi es su mayor fortaleza y debilidad. En un principio se niega a perder los juegos, sin tener en cuenta las consecuencias. Esto casi causa la muerte de Seto Kaiba, atacándolo mientras él estaba parado en el borde una pared del castillo de Maximillion Pegasus que estaba sobre un acantilado en el Reino de los Duelistas (si Yami Yugi hubiera atacado al monstruo de Kaiba, este hubiera caído al vacío y Yami Yugi hubiera salido victorioso). En la versión original japonesa, Kaiba amenazó con suicidarse si perdía. Yugi detiene a Yami Yugi antes de que cometa dichos actos a veces, aunque no siempre con éxito. 
-			</p>
-			<p>
-				A Yugi le da pavor que Yami Yugi tome su cuerpo durante un tiempo, debido a que no sabe el daño que podría causar. La destructividad y la brutalidad a la que Yami Yugi era capaz de llegar cuando Yugi Muto perdía la capacidad de hacer que controlara su impulso de contraatacar, así como de hacerlo entrar en razón en el momento oportuno alcanzan quizás su máxima expresión durante el primer Duelo que Yami Yugi sostiene contra Rafael, luego que, con su ayuda, pudiese activar la carta "El Sello de Oricalcos", a pesar de que Yugi le suplica que no lo haga dado lo peligrosa que es, y trata de hacerle ver que esa carta le está haciendo pensar de un modo incorrecto; aunque Yami lo hace movido por su férrea determinación a no perder contra Rafael, sabiendo lo que se perdería si eso pasaba al jugar esa carta. Al principio, por breves instantes, es capaz de tomar consciencia del gran error que ha cometido al hacerlo; sin embargo, luego deja de importarle y, junto con confinar a Yugi Muto al otro lado de una barrera mental y espiritual desde donde Yugi queda incapaz de hacer que Yami lo viese ni lo escuchase, él se abrió a la plena liberación de su lado más oscuro y despiadado, lo que se refleja en el resto de su desempeño durante el duelo. Por ejemplo, poco después de activar el Sello de Orichalcos y comenzar a experimentar su fuerza, él llega a afirmar: "No me interesa de dónde salió este poder; lo único importante es que ahora me pertenece". Luego, comienza a traicionar la confianza que tienen en él los monstruos que tiene en el Campo, Sacrificándolos uno por uno usando a "Tortuga Catapulta" para infligir daño directo a Rafael, en lugar de utilizarlos en estrategias que podrían potenciar sus capacidades. Esto dura hasta que Rafael logra Invocar a "Guardián Eatos", y usa su efecto para hacer que absorba el poder de los monstruos del Cementerio de Yugi, momento en que todos ellos salen para mirar a este con reproche, y Yami les pide desesperadamente que lo perdonen por su traición; luego, ellos le dan a Guardián Eatos 10000 ATK, suficiente para vencer a Yami de un golpe. Finalmente, Yami vive el momento más doloroso al ver cómo Yugi ofrece su propia alma como la que el Sello de Oricalcos debe llevarse para impedir que esto le pasara al alma de Yami y que se perdiera cualquier posibilidad de vencer a Dartz. Aprender a perder se convierte en una parte esencial en la travesía de Yami Yugi, que es probado durante la Batalla Ceremonial. 
-			</p>
-			<p>
-				Yami Yugi también es sabio e inteligente. Él conoce todas las reglas y detalles de cómo se juega el Duelo de Monstruos. Cabe destacar que, según él mismo, ha sido conocido por muchos nombres a lo largo de su milenaria existencia en el mundo, que posee gracias al Rompecabezas del Milenio, y por lo visto, no sólo tiene de su parte su sabiduría natural, sino también el aprendizaje obtenido gracias a años de experiencia en tratar con villanos, que afirma haber tenido a lo largo de los siglos; gracias a esto, Yami Yugi posee una facilidad especial para acabar con las tretas y jugadas deshonestas de quienes se han enfrentado a él (muchas veces estas personas se aprovechaban del desconocimiento que Yami Yugi tenía acerca de sus estrategias para emplearlas en su contra, sin que comprendiera lo que sucedía hasta que su adversario le explicaba la mala pasada que acababa de jugarle) o que les colocaban en una situación de extrema ventaja para vencerlo, lo cual lograba gracias a una combinación adecuada de su habilidad para guardar secretamente sus tácticas hasta el momento preciso, y de un conjunto de estrategias de duelo que siempre resultaban ser muy útiles, haciendo que funcionaran con casi cualquier carta que tuviese a la mano para atacar. También es capaz de leer el lenguaje antiguo de los egipcios, averiguar las adivinanzas o pistas y lo que significan. 
-			</p>
-		</section>
-		<section id="ultimo">
-			<details>
-				<div>
-					<figure class="legendarias">
-						<img src="img/exodia.jpg" alt="">
-						<figcaption>
-							Exodia, el prohibido
-						</figcaption>
-					</figure>
-					<h3>Exodia el Prohibido</h3>
-					<p>
-						"Exodia" (エクゾディア, Ekuzodia) es un arquetipo de monstruos Lanzador de Conjuros de OSCURIDAD, con su primer miembro lanzado en Leyenda del Dragón Blanco de Ojos Azules y su primer soporte lanzado en Millennium Box Gold Edition. Están enfocados en condiciones de victoria alternativas. Está relacionado con el arquetipo "el Prohibido".
+    <header>
+        <img src="img/logo.png" alt="">
+        <nav>
+            <a href="index.html">Hackers</a>
+            <a href="ataques.html">Ataques a redes</a>
+            <a href="defensa.html">Defensa de redes</a>
+        </nav>
+    </header>
+    <main>
+        <h1>¿Qué son los hackers?</h1>
+        <section>
+            <article>
+                
+                <p>
+                    Los hackers son normalmente conocidos por ser personas o grupo de personas que realizan actividades ilícitas en la 
+                    red. No obstante, no todos son así, clasificándolos en diferentes tipos de hackers dependiendo totalmente de los
+                    objetivos que persiguen.
 
-                        Mientras que muchas personas se refieren a las cartas "el Prohibido" como cartas "Exodia", solo "Exodia, el Prohibido" (la "cabeza") es parte de este arquetipo.
+                    Otra analogía a la que se le suele asociar es "Pirata informático", se les llama de esta manera ya que tienen un
+                    amplio conocimiento en la informática, siendo sus campos la programación, ciberseguridad, sistemas de comunicación
+                    y almacenamientos de datos o arquitectura tech. 
 
-                         La carta principal, "Exodia, el Prohibido", es uno de los primeros cinco Monstruos de efecto en ser lanzado y la primera carta en tener una condición alternativa de victoria.
+                    Los objetivos de estas personas o grupo de personas son variados, como por ejemplo el hacker ético que es el que 
+                    comparte su conocimiento para realizar buenas acciones, para gobiernos o entidades o el hacker malvado que lo que
+                    busca principalmente es causar daño a otras personas o derribar entidades como tal.
 
-                        Notablemente, "Exodia, el Prohibido" y las otras cartas "el Prohibido" fueron los únicos monstruos específicamente mencionados en los libros de reglas (excepto como ejemplo), debido a que "Exodia, el Prohibido" fue la única carta con una condición de victoria alternativa en el momento. "Exodia, el Prohibido" ya no se menciona en el libro de reglas, ya que el texto de su carta es suficiente para aclarar su efecto.
+                    Un hacker prácticamente puede hacer de todo, desde robar información, hacer caer webs enteras, robar datos de
+                    personas concretas, hackear sistemas de seguridad e incluso cambiar metadatos de una página web.
+                </p>
+                <h2>¿Son los hackers peligrosos?</h2>
+                <p>
+                    Esto es una respuesta relativa ya que todo depende del uso que se de a dichos conocimientos y del fin al que 
+                    el hacker quiere llegar.
+                </p>
+            </article>
+            <article>
+                <h2>Tipos de hacker</h2>
+                <p>
+                    Normalmente los tipos de hackers los solemos clasificar por su "sombrero" para referirnos a ellos, pero existen
+                    también algunos tipos de hacker a los que no se les asocia ningún sombrero.
+                </p>
+                <div>
+                    <h3>White hat</h3>
+                    <p>
+                        El hacker del sombre blanco son mayormente conocidos por su estilo de hackeo. Estas personas suelen disponer sus
+                        conocimientos avanzados con el objetivo de realizar buenas obras.
+                    </p>
+                    <p>
+                        Uno de los trabajos más comunes para este tipo de hacker es sobretodo identificar los fallos en los programas 
+                        o sistemas informaticos. Así estos hackers logran captar estos fallos para la empresa que los contrató y poder
+                        implementar los sistemas de seguridad pertinentes para dicho programa. De esta forma los hackers encontraron la 
+                        manera de hacer dinero con sus conocimientos sin tener que requerir a actividades delictivas. Además dichos hackers 
+                        podrían también incluso pertenecer a entidades gubernamentales como los cuerpos de seguridad del estado o de 
+                        las propias empresas.
+                    </p>
+                </div>
+                <div>
+                    <h3>Black Hat</h3>
+                    <p>
+                        Podemos intuir facilmente que este tipo de hacker es la antítesis del White hat, consiguiendo que todas las actividades
+                        realizadas por estas personas sean ilegales, también son conocidos como crackers. Utilizan sus conocimiento en la
+                        informática para realizar ciberataques a empresas, entidades gubernamentales y además a personas normales con el
+                        objetivo de conseguir un beneficio propio, ya sea robar dinero, datos o cualquier cosa para hacer chantajes etc.
+                    </p>
+                    <p>
+                        No solo se encargan de los ciberataques, también suelen ser los responsables de crear virus para los ordenadores,
+                        dispositivos inteligentes, spam, clonar datos o tumbar sistemas de seguridad y datos de empresas. 
+                    </p>
+                    <p>
+                        La moralidad de este tipos de hackers es dudosa ya que no les importa robar datos personales a la gente para 
+                        venderlos al mejor postor.
+                    </p>
+                </div>
+                <div>
+                    <h3>Grey Hat</h3>
+                    <p>
+                        Este tipo de hacker es el hacker más curioso que hay ya que su objetivo es hackear sistemas cualesquiera, para luego
+                        ofrecer el servicio correspondiente de solución de fallas, y todo esto lo hace por diversión, demostrar que puede
+                        o demostrar incluso que el sabe hacerlo.
+                    </p>
+                    <p>
+                        También pueden ser contrados por las empresas para realizar otro tipo de tares que podrían ser legales o no. Estos
+                        hacker hacen este tipo de actividades de manera anónima ya que ello podría acarrear problemas legales. Normalmente
+                        no gusta que una persona destruya todo lo que crees que es infalible y tenga acceso a tus datos. E incluso la 
+                        contratación suele ser anónima también.
+                    </p>
+                    <p>                        
+                        En si este tipo de hacker no busca perjudicar a las empresas o entidades. Lo que quiere es que se hable de el,
+                        ser el centro de atención y colgarse la medallita de "soy el mejor", para luego ofrecerte su servicio por un 
+                        "módico" precio claro está.
+                    </p>
+                    <p>
+                        Un ejemplo de este hacker sería el que, dicho sujeto hackea un sistema gubernamental y luego acaba el propio gobierno
+                        utilizando al hacker para espiar a otros países o incluso sistemas. Esto suena a película pero sucede mas frecuentemente
+                        de lo que nos pensamos.
+                    </p>
+                </div>
+                <div>
+                    <h3>Red Hat</h3>
+                    <p>
+                        Este tipo de hacker podría ser considerado como el robin hood de los hackers, actúa sin piedad alguna contra los 
+                        hackers black hat, siendo su único objetivo destruirlos y derribar todo tipo de infraestructura que tienen, siendo 
+                        la peor pesadilla de estos.
+                    </p>
+                </div>
+                <div>
+                    <h3>Blue Hat</h3>
+                    <p>
+                        El blue hat es el hacker que se encuentra contratado de por si, dedicándose a testear sistemas o programas detectando
+                        fallos antes de que estos programas sean lanzados al mercado. Así la empresa que lanza el programa o sistema logra
+                        evitar el exponer su producto en malas condiciones.
+                    </p>
+                </div>
+                <div>
+                    <h3>Green Hat</h3>
+                    <p>
+                        Estos hackers son aficionados del mundo del hacking. No solo son aficionados pues su meta es convertirse en hackers
+                        de calidad y tienen una gran curiosidad por aprender. Es normal verlos absortos en las comunidades y preguntando
+                        en exceso a sus compañeros con preguntas. No obstante el hacker green hat al final tiene dos caminos que seguir, el 
+                        camino del bien o el de la destrucción.
+                    </p>
+                </div>
+                <div>
+                    <h3>Hacktivistas</h3>
+                    <p>
+                        Todos conocemos al grupo más grande de Hacktivistas, Annonymous. Estos hackers buscan promover un movimiento en apoyo
+                        a un ideal político, social o ideológico. También buscando la fama por sus conocimientos o hacerse notar en la
+                        comunidad. No obstante su fama no siempre es buena, su rango de actuación normalmente es en espacios de internet, para
+                        poder llegar al alcance de cualquier persona, además de esto también podrían realizar actos vandálicos en 
+                        internet para alcanzar su objetivo. Tambien se les conoce como ciberprotestantes.
+                    </p>
+                </div>
+                <div>
+                    <h3>Red Team</h3>
+                    <p>
+                        Se refiere normalmente a un grupo de hackers el cual su objetivo es emular situaciones de hackeos o ataques para así
+                        poder analizar las diferentes maneras de defensa ante estos. Esto lo hacen desde el punto de vista de los atacantes.
 
-                        "Exodia, el Prohibido" es una de las cartas más icónicas de la franquicia, siendo conocida por su condición automática de victoria y su uso por parte de Yugi Muto en el primer episodio del anime.
-                        Si bien el objetivo principal de "Exodia" es declarar una victoria automática al tener las cinco piezas "el Prohibido", existen otras formas de usarlo.
-                        
-                        El primero de ellos fue "Exodia Necross", que tiene que ser Invocado de Modo Especial a través de "Contrato con Exodia" y posee la casi invulnerabilidad de la versión de anime de "Exodia", siempre y cuando las piezas "el Prohibido" permanezcan en el Cementerio. Gana 500 ATK durante cada una de las Standby Phases del jugador y no puede ser destruido en batalla o por efectos de Mágicas o Trampas. Se destruye automáticamente si ninguna de las cinco piezas "el Prohibido" están en el Cementerio. Debido a su casi invencibilidad y al aumento de su fuerza, sirve como una carta de triunfo que no puede ser derrotada o como un plan alternativo si demasiadas piezas "el Prohibido" terminan en el Cementerio.
-                        En Yu-Gi-Oh! Capsule Monster Coliseo, el jugador puede "fusionar" las cinco piezas de Exodia para Invocar a "El Legendario Exodia Encarnado", el Exodia completo (pero será solo como una pieza de fusión normal), con la capacidad de causar un daño masivo a los monstruos que están dentro del alcance. Esto es conocido por el nombre de su ataque, "¡¡¡Obliterar!!!". "El Legendario Exodia Encarnado" también se puede desbloquear en Yu-Gi-Oh! The Duelists of the Roses en la biblioteca cuando Invocas con éxito a "Exodia", pero será imposible verlo en 3D, y el único estado disponible será su Tipo, que es Lanzador de Conjuros, y su Atributo, que es OSCURIDAD.
-					</p>
-				</div>
-				<div>
-					<figure  class="legendarias">
-						<img src="img/dragon.jpg" alt="">
-						<figcaption>
-							Dragón Blanco de ojos azules
-						</figcaption>
-					</figure>
-					<h3>Dragón Blanco de ojos azules</h3>
-					<p>
-						"Ojos Azules" (ブルーアイズ Burūaizu) es un arquetipo de monstruos de LUZ Dragón usados por Seto Kaiba, Kaibaman, Paradox, y Roku. Una mujer misteriosa llamada Kisara lleva el espíritu del monstruo "Dragón Blanco de Ojos Azules".
+                        Utilizan herramientas que seguramente acaben utilizando los atacantes para así ver cuales son las fallas en el sistema
+                        para notificarlas al blue team. Un red team funciona como medición de seguridad para que el blue team sea capaz
+                        de solucionar las vulnerabilidades.
+                    </p>
+                </div>
+                <div>
+                    <h3>Blue Team</h3>
+                    <p>
+                        Se conoce como grupo de hackers el cual su objetivo es crear defensas ante ciberataque, protegiendo a empresas o 
+                        entidades de éstas.
 
-                        Aunque los miembros han existido desde el Starter Box: 劇場限定発売版 publicado en 1999, sólo recibió su primer apoyo explícito con la familia "De Azules Ojos
-                        La mayoría de los monstruos "Ojos Azules" se parecen mucho a "Dragón Blanco de Ojos Azules".
-
-                        En el anime, se ha dicho que "Ojos Azules" representa el poder, mientras que "Ojos Rojos" representa el potencial.
-                        Los Decks "Ojos Azules" se enfocan en una estrategia de Control de Campo, generalmente destruyendo monstruos adversarios. Pueden Invocar por Sincrónica monstruos como "Dragón Plateado de Ojos Cerúleos" para bloquear el Campo del adversario o ayudar a Invocar monstruos más fuertes y establecer una Invocación de Fusión para un movimiento final.
-
-                        Después de que los "Señor Dragón" se restringieran a uno, pero "Carga de Alma" todavía estaba en tres, "Dragón Blanco de Ojos Azules" y "La Piedra Blanca de la Leyenda" se usaron como una combinación de Robo con "Cartas de la Consonancia" y "Canjear", y se usaron para robar los cuatro "Señor Dragón", conocidos extraoficialmente como el motor "Robo Dragón" o la estructura "Turbo Huevo".
-
-                        "La Melodía del Dragón que se Despierta" puede buscar a "Dragón Blanco de Ojos Azules", fuera del efecto de Descartar de la Carta Mágica como puede "Santuario de Dragones"/"Barranco del Dragón", para que el Cementerio se pueda cargar con monstruos "Ojos Azules" y ser revividos por "Grito Plateado" y "Retorno de los Señores Dragón".
-
-                        "La Piedra Blanca de la Leyenda" necesita otro efecto para descartarlo y poder usar su efecto del Cementerio. Mientras que tanto monstruos como "Maestro de Azules Ojos" y "Sabio de Azules Ojos" tienen efectos para Invocar de Modo Easpecial cualquier monstruo "Ojos Azules" desde el Deck Principal, ya sea "Barajándose del Cementerio al Deck Principal" o descartándose a sí mismo, respectivamente.
-
-                        Structure Deck R: Revival of the Great Divine Dragon ofrece "Retorno de los Señores Dragón" y "Señor Dragón Divino Felgrand" para que los Decks "Ojos Azules" tengan protección adicional y efectos de reavivamiento y la combinación de "Santuario de Dragones" para mandar a "Dragón Arcavaliente" con "Dragón Blanco de Ojos Azules" o "Espíritu del Dragón de Blanco" al Cementerio y luego revivir el segundo mencionado. "Amórfago Goliat" también se puede usar, pero necesita más que una preparación de una sola carta como "Santuario de Dragones".
-					</p>
-				</div>		
-				<summary>Cartas legendarias</summary>
-			</details>
-			<details>
-				<div>
-					<figure class="dioses">
-					<img src="img/obelisk.jpg" alt="">
-					<figcaption>
-						Obelisk el atormentador
-					</figcaption>
-				</figure>
-				<h3>Obelisk el atormentador</h3>
-				<p>
-					Según Konami®, el efecto de "Obelisco el Atormentador" es el siguiente:
-                    Debes Sacrificar 3 monstruos para Invocar esta carta de Modo Normal (esta carta no puede ser Colocada). La Invocación Normal de esta carta no puede ser negada. Cuando esta carta es Invocada de Modo Normal, los efectos de Cartas Mágicas, de Trampa o Monstruos de Efecto no pueden ser activados. Esta carta no puede ser designada por los efectos de Cartas Mágicas, de Trampa o Monstruos de Efecto. Si esta carta es Invocada de Modo Especial, es mandada al Cementerio durante la End Phase. Puedes Sacrificar 2 monstruos para destruir todos los monstruos que controle tu adversario.
-				</p>
-				<p>
-					Según el anime, el efecto de "Obelisco el Atormentador" es el siguiente:
-                    Requiere 3 Sacrificios para ser Invocado de Modo Normal (no puede ser Colocado de modo normal). La Invocación Normal de esta carta no puede ser negada. Cuando es Invocada de Modo Especial, no se pueden activar efectos de cartas Mágicas/de Trampa y efectos de monstruos que no sean de Atributo Divinidad. Los efectos de Cartas de Monstruo y Mágicas sólo afectan a esta carta hasta la End Phase, pero esta carta no puede dejar el Campo debido a Cartas de Monstruo y Mágicas excepto por el efecto de "El Dragón Alado de Ra". Las Cartas Mágicas no pueden afectar a esta carta directamente excepto para alterar el ATK/DEF de esta carta, sólo hasta la End Phase. El control de esta carta no puede cambiar. Durante la End Phase, cuando esta carta es Invocada de Modo Especial, devuelve esta carta a tu Deck/Cementerio/Zona de Destierro desde donde fue Invocada de Modo Especial, excepto desde la mano. Si esta carta es Invocada de Modo Especial en Posición de Defensa boca arriba cuando el monstruo de un adversario declara un ataque, ese ataque selecciona a esta carta en su lugar. Si esta carta es Invocada de Modo Especial en Posición de Defensa boca arriba cuando uno o más monstruos en tu lado del Campo fueran a ser afectados por el efecto de una carta, ese efecto afecta a esta carta en su lugar. Tu adversario no puede Sacrificar esta carta. Durante tu Main Phase, puedes Sacrificar 2 monstruos para destruir todos los monstruos que controle tu adversario, y atacar a tu adversario directamente. esta carta no puede declarar un ataque el turno en el que este efecto es activado. Durante la Battle Phase de tu adversario, puedes Sacrificar 2 monstruos para que el ATK de esta carta se convierta en ∞ (infinito), sólo por un ataque.
-				</p>
-				</div>
-				<div>
-					<figure class="dioses">
-						<img src="img/slifer.jpg" alt="">
-						<figcaption>
-							Slifer el dragón del cielo
-						</figcaption>
-					</figure>
-					<h3>Slifer el dragón del cielo</h3>
-					<p>
-						Según Konami®, el efecto de "Slifer el Dragón del Cielo" es el siguiente:
-                        Debes Sacrificar 3 monstruos para Invocar esta carta de Modo Normal (esta carta no puede ser Colocada). La Invocación Normal de esta carta no puede ser negada. Cuando esta carta es Invocada de Modo Normal, los efectos de Cartas Mágicas, de Trampa o Monstruos de Efecto no pueden ser activados. Esta carta no puede ser seleccionada por los efectos de Cartas Mágicas, de Trampa o Monstruos de Efecto. Si esta carta es Invocada de Modo Especial, es mandada al Cementerio durante la End Phase. El ATK y la DEF de este monstruo es igual a la cantidad de cartas en tu mano x 1000. Ademas cuando se hace una Invocación o Invocación de Volteo con éxito de un monstruo con 2000 DEF o menos, destruye ese monstruo.
-                        "Slifer el Dragón del Cielo" no es afectado por cartas que lo seleccionen como objetivo de Cartas Mágicas, de Trampa o de Monstruos de Efecto, aunque existen cartas como "Espadas de la Luz Reveladora" que pueden detenerlo. La carta "Atar a la Gravedad" también puede detenerlo, ya que no lo selecciona como objetivo.
-					</p>
-					<p>
-						Según el anime, el efecto de "Slifer el Dragón del Cielo" es el siguiente:
-                        Requiere 3 Sacrificios para ser Invocado de Modo Normal (no puede ser Colocado de modo normal). La Invocación Normal de esta carta no puede ser negada. Cuando es Invocada de Modo Especial, no se pueden activar efectos de Cartas Mágicas/de Trampa y efectos de monstruos que no sean de Atributo Divinidad. Los efectos de Cartas de Monstruo y Mágicas sólo afectan a esta carta hasta la End Phase, pero esta carta no puede dejar el Campo debido a Cartas de Monstruo y Mágicas excepto por el efecto de "El Dragón Alado de Ra". Las Cartas de Trampa no pueden afectar a esta carta directamente excepto para alterar el ATK/DEF de esta carta, sólo hasta la End Phase. Mientras permanezca boca arriba en el Campo, esta carta es también de Tipo Dragón. El control de esta carta no puede cambiar. Durante la End Phase, cuando esta carta es Invocada de Modo Especial, devuelve esta carta a tu Deck/Cementerio/Zona de Destierro desde donde fue Invocada de Modo Especial, excepto desde la mano. Si esta carta es Invocada de Modo Especial en Posición de Defensa boca arriba cuando el monstruo de un adversario declara un ataque, ese ataque selecciona a esta carta en su lugar. Si esta carta es Invocada de Modo Especial en Posición de Defensa boca arriba cuando uno o más monstruos en tu lado del Campo fueran a ser afectados por el efecto de una carta, ese efecto afecta a esta carta en su lugar. Tu adversario no puede Sacrificar esta carta. Esta carta gana 1000 ATK y DEF por cada carta en tu mano. Cuando uno o más monstruos sean Invocados en el lado del Campo de tu adversario de Modo Normal/Especial o por Volteo en Posición de Ataque boca arriba, ese o esos monstruos pierden 2000 ATK, y si su ATK ha sido reducido a 0 por ese efecto, destrúyelos. Cuando uno o más monstruos sean Invocados en el lado del Campo de tu adversario de Modo Normal/Especial o por Volteo en Posición de Defensa boca arriba, boca arriba, ese o esos monstruos pierden 2000 DEF, y si su DEF ha sido reducido a 0 por ese efecto, destrúyelos.
-					</p>
-				</div>
-				<div>
-					<figure class="dioses">
-						<img src="img/ra.jpg" alt="">
-						<figcaption>
-							Dragón Alado de Ra
-						</figcaption>
-					</figure>
-					<h3>Dragón Alado de Ra</h3>
-					<p>
-						Según Konami®, el efecto de "El Dragón Alado de Ra" es:
-                        Debes Sacrificar 3 monstruos para Invocar esta carta de Modo Normal a (esta carta no puede ser Colocada). La Invocación Normal de esta carta no puede ser negada. Cuando esta carta es Invocada de Modo Normal, los efectos de Cartas Mágicas, de Trampa o Monstruos de Efecto no pueden ser activados. Esta carta no puede ser designada por los efectos de Cartas Mágicas, de Trampa o Monstruos de Efecto. Si esta carta es Invocada de Modo Especial, es mandada al Cementerio durante la End Phase. El ATK y la DEF de este monstruo son igual a la suma del ATK y la DEF de los monstruos usados para Invocar a esta carta. Cuando esta carta es Invocada de Modo Especial, puedes activar 1 de estos efectos:
-                        ● Pagar LP hasta que sólo tengas 1 punto, para hacer que esta carta gane ATK y DEF igual a la cantidad de LP pagados.
-                        ● Puedes pagar 1000 LP para destruir 1 monstruo del Campo y retirarlo del Juego.
-					</p>
-					<p>
-						Según el anime, el efecto de "El Dragón Alado de Ra" es el siguiente:
-
-						Requiere 3 Sacrificios para ser Invocada de Modo Normal (no puede ser Colocada de modo normal). La Invocación Normal de esta carta no puede ser negada. Cuando esta carta es Invocada, no se pueden activar efectos de Cartas Mágicas/de Trampa y efectos de monstruos que no sean de Atributo Divinidad. Los efectos de Cartas Mágicas/de Trampa y Monstruos que no sean de Atributo Divinidad sólo afectan a esta carta hasta la End Phase, pero esta carta no puede abandonar el Campo debido a los efectos de Cartas de Monstruo y Mágicas. Las Cartas de Trampa no pueden afectar a esta carta directamente, excepto para alterar el ATK/DEF de esta carta sólo hasta la End Phase. El control de esta carta no puede cambiar. Durante la End Phase, cuando esta carta es Invocada de Modo Especial, devuelve esta carta a tu Deck/Cementerio/Zona de Destierro desde donde fue Invocada de Modo Especial, excepto desde la mano. Esta carta posee un efecto de Ataque Instantáneo que le permite atacar durante el turno en que ha sida Invocada de Modo Especial. Cuando esta carta es Invocada de Modo Especial, sólo puede activar un efecto. Si esta carta es Invocada de Modo Especial en Posición de Defensa boca arriba cuando un monstruo del adversario declara un ataque, el ataque selecciona a esta carta en su lugar. Si esta carta es Invocada de Modo Especial en Posición de Defensa boca arriba cuando uno o más monstruos en tu lado del Campo fueran a ser afectados por el efecto de una carta, ese efecto afectará a esta carta en su lugar. Tu adversario no puede Sacrificar esta carta. Esta carta no se ve afectada por los efectos de "Obelisco el Atormentador" y "Slifer el Dragón del Cielo" debido a su jerarquía. Cuando esta carta es Invocada de Modo Normal, su ATK original y DEF se convierten en los respectivos ATK y DEF de los monstruos Sacrificados. Puedes activar su efecto de Muerte en un Turno pagando todos tus LP excepto 1 para aumentar el ATK y la DEF de esta carta en el total de LP que pagaste. También puedes Sacrificar todos los demás monstruos que controles para aumentar el ATK y DEF de esta carta por los respectivos ATK y DEF de los monstruos Sacrificados. Después, esta carta puede atacar a todos los monstruos de tu adversario una vez cada uno y si tu adversario no tiene más monstruos, puede atacar a tu adversario directamente. Si es usado "De-Fusión" en esta carta, este efecto de ataque (si esta carta está atacando) será negado, el ATK de esta carta se reducirá a 0 y tus LP se incrementarán en la cantidad de puntos de ATK de esta carta. Puedes activar el efecto del Dios Fénix pagando 1000 LP para atacar y destruir todos los monstruos que tu adversario controle, incluyendo a "Obelisco el Atormentador" y "Slifer el Dragón del Cielo". El Dios Fénix no será destruido en batalla o por efectos de cartas y el controlador no recibirá daño de batalla. 
-					</p>
-				</div>
-
-				<summary>Los tres Dioses Egipcios</summary>
-			</details>
-		</section>
-	</main>	
-	
+                        Lo consiguen mediante una vigilancia constante de patrones informaticos, así cuando hay algo que les llama la atención
+                        suenan las alarmas y muy posiblemente estén frente a un ciberataque. Además se encargan de mejorar y no solo crear
+                        los sistemas de seguridad ya existentes. Junto con el Red team logran identificar los fallos y las formas de defenderse.
+                    </p>
+                </div>
+                <div>
+                    <h3>Whistleblower</h3>
+                    <p>
+                        Este hacker es muchas veces es consideraro el el rencoroso de los hackers. Diciendolo de manera bonita se le llama
+                        informante malicioso, pero no es más que una persona que normalmente no está contenta con su trabajo o que fue 
+                        contratado por la competencia para infiltrarse y revelar secretos comerciales. Suelen tener acceso muy facil a la
+                        información ya que están en la propia empresa y se les considera un tipo de hacker muy peligroso.
+                    </p>
+                </div>
+                <div>
+                    <h3>Script-kiddie</h3>
+                    <p>
+                        Estos hackers serían los hackers más novatos de todos, ya que no suelen tener habilidades tales como los black hat
+                        pero siendo estos incluso más peligrosos. Se benefician de hackeos sin saber exactamente como hacerlo. Normalmente
+                        suelen hacer cibervandalismo usando software malicioso evidentemente no creado por ellos y les importa bien poco
+                        el funcionamiento de los sistemas a los que acceden o usan. Se dedican a hacer daño por curiosidad y en el peor de 
+                        los casos, convirtiendose en la peor versión de los Black hat, robando información por dinero.
+                    </p>
+                </div>
+            </article>            
+        </section>
+    </main>
+    <footer>
+        <p>Trabajo realizado por: María, Kevin y Alfonso</p>
+    </footer>
 </body>
 </html>
